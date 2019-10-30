@@ -3,7 +3,7 @@ package entities;
 import java.util.*;
 
 public class Sentence extends Entity {
-    List<String> sentences = new ArrayList<>();
+    private List<String> sentences = new ArrayList<>();
 
     public List<String> getSentences() {
         return sentences;

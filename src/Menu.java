@@ -4,9 +4,9 @@ import parsers.TextFileParsing;
 import java.io.*;
 
 public class Menu {
-    TextFileParsing fileParsing = new TextFileParsing();
-    Sentence interrogativeSentences = new Sentence();
-    Word words = new Word();
+    private TextFileParsing fileParsing = new TextFileParsing();
+    private Sentence interrogativeSentences = new Sentence();
+    private Word words = new Word();
 
     public void showMenu() {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));

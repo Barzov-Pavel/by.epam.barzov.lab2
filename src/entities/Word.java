@@ -3,7 +3,7 @@ package entities;
 import java.util.*;
 
 public class Word extends Entity {
-    List<String> words = new ArrayList<>();
+    private List<String> words = new ArrayList<>();
 
     public List<String> getWords() {
         return words;
